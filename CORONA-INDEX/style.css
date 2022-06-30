@@ -20,6 +20,25 @@ body{
     color: blanchedalmond;
     
 }
+
+.myTag{
+    font-family: 'Playfair Display', serif;
+    background-color: #124147;
+    width: fit-content;
+    color: white;
+    position:fixed;
+    left: 85%;
+    top: 90%;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-style: dashed;
+    
+}
+.myTag:hover{
+    background-color: white;
+    color: #002024;
+}
 .box:hover{
     background: #289baa85; 
     color: #fdf1df;
