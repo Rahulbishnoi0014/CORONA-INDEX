@@ -1,0 +1,26 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #24c7dc7c;
+}
+.heading
+{   color:#17525a85; 
+    text-decoration: underline;
+
+    font-size: 5rem;
+    font-family: 'Playfair Display', serif;
+
+}
+.box{
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 40px;
+    font-size: 4rem;
+    background: #3bbecf85; 
+    line-height: 85px;
+    padding: 40px;
+    color: blanchedalmond;
+    
+}
+.box:hover{
+    background: #289baa85; 
+    color: #fdf1df;
+}
