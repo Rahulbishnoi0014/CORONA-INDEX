@@ -43,3 +43,98 @@ body{
     background: #289baa85; 
     color: #fdf1df;
 }
+body{
+
+    background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    font-family: 'Quicksand', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #24c7dc7c; */
+}
+.heading
+{   color:#fffefe;
+    background-color: #01272cc0;
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 30px 20px;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+
+}
+.box{
+    margin: 50px 25px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 40px;
+    font-size: 4rem;
+    background: #289baa85; 
+    line-height: 85px;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    
+}
+
+.box:hover{
+    background: #3bbecf85; 
+
+    color: #fdf1df;
+}
+
+.myTag{
+    font-family: 'Playfair Display', serif;
+    background-color: #124147;
+    width: fit-content;
+    color: white;
+    position:fixed;
+    left: 85%;
+    top: 90%;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-style: dashed;
+    
+}
+.myTag:hover{
+    background-color: white;
+    color: #002024;
+}
+
+@media (max-width: 700px){
+    .box{
+
+        font-size: 2rem;
+        margin: 30px 30px;
+
+    }
+
+.heading{
+    font-size: 3rem;
+}
+
+.myTag{
+    font-size: 8px;
+    padding: 10px;
+    left: 70%;
+    top: 95%;
+}
+}
+
+@media (max-width: 480px){
+    .box{
+
+        font-size: 1.4rem;
+        margin: 20px 20px;
+
+    }
+
+.heading{
+    font-size: 2rem;;
+}
+.myTag{
+    font-size: 8px;
+    padding: 10px;
+    left: 70%;
+    top: 95%;
+}
+}
